@@ -8,9 +8,9 @@ const botao = document.getElementById("botao");
 const placar = document.getElementById("placar");
 
 // ===== 2. Regras do jogo (mude estes números para deixar mais fácil ou difícil) =====
-const GRAVIDADE = 0.4;      // quanto o passarinho cai por quadro
-const FORCA_DO_PULO = -7;   // negativo porque subir é ir para cima
-const VELOCIDADE = 2;       // quanto os canos andam para a esquerda
+const GRAVIDADE = 0.2;      // quanto o passarinho cai por quadro
+const FORCA_DO_PULO = -5;   // negativo porque subir é ir para cima
+const VELOCIDADE = 1.5;     // quanto os canos andam para a esquerda
 const BURACO = 150;         // tamanho do espaço entre o cano de cima e o de baixo
 const LARGURA_CANO = 60;
 const DISTANCIA_CANOS = 200;
