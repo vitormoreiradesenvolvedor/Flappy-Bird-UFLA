@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Passarinho da UFLA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Passarinho da UFLA</h1>
+  <p id="placar">Pontos: 0</p>
+
+  <!-- Area do jogo: o canvas e a "folha de papel" onde desenhamos tudo -->
+  <div id="jogo">
+    <canvas id="tela" width="360" height="540"></canvas>
+
+    <!-- Caixa de mensagens que aparece no inicio e no fim da partida -->
+    <div id="aviso">
+      <h2 id="titulo">Passarinho da UFLA</h2>
+      <p id="texto">
+        Clique na tela ou aperte ESPAÇO para o passarinho voar.<br>
+        Passe pelo buraco entre os canos e ganhe 1 ponto.<br>
+        Se encostar no cano, no chão ou no céu, você perde.
+      </p>
+      <button id="botao">Começar</button>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+
+</body>
+</html>
